@@ -4,56 +4,61 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    public float movementSpeed = 8f;
-    public GameObject player;  // Référence au joueur
+    public float movementSpeed = 25f;
     private Rigidbody enemyRb;
+    private Transform player;
+    //private bool isChasing = false;
+    private Vector3 moveDirection;
 
-    public float reactDistance = 50f;   // Distance à laquelle l'ennemi commence à suivre le joueur
-    public float destroyDistance = 50f; // Distance à laquelle l'ennemi est détruit (lorsqu'il est trop loin)
-    
-    private Vector3 startPosition; // Position initiale pour savoir quand l'ennemi doit être réinitialisé
-
-    // Start is called before the first frame update
     void Start()
     {
+        moveDirection = -transform.forward;
+        // Récupérer les composants nécessaires
         enemyRb = GetComponent<Rigidbody>();
-        startPosition = transform.position;  // Enregistrer la position de départ de l'ennemi
+        player = GameObject.Find("Player").transform;
+
+        // Désactiver la gravité si nécessaire
+        enemyRb.useGravity = false;
+
+        // Geler les positions sur les axes X et Y (si tes véhicules sont supposés se déplacer seulement en Z)
+        enemyRb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+
+        // Limiter la détection des collisions à "Continuous" si nécessaire pour éviter de traverser les objets
+        enemyRb.collisionDetectionMode = CollisionDetectionMode.Continuous;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (player == null)
+        // Déplacer le véhicule en arrière (inverse de sa direction actuelle)
+        transform.Translate(moveDirection * movementSpeed * Time.deltaTime);
+
+    }
+
+    // Gestion des collisions
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
         {
-            // Ne pas faire autre chose si le joueur est détruit
-            return;
+            // Arrêter l'ennemi en cas de collision avec le joueur
+            enemyRb.velocity = Vector3.zero;
+            enemyRb.isKinematic = true; // Désactiver la physique pour l'ennemi pendant la collision
+
+            // Eventuellement désactiver la physique du joueur aussi
+            Rigidbody playerRb = collision.gameObject.GetComponent<Rigidbody>();
+            if (playerRb != null)
+            {
+                playerRb.velocity = Vector3.zero; // Arrêter le joueur
+                playerRb.isKinematic = true;
+                //StartCoroutine(ResumePhysicsAfterDelay(0.1f));  // Réactiver la physique après un court délai
+            }
+
+            Debug.Log("Collision avec le joueur !");
         }
+    }
 
-        // Calculer la distance entre l'ennemi et le joueur
-        float distance = Vector3.Distance(player.transform.position, transform.position);
-        Vector3 lookDirection = (player.transform.position - transform.position).normalized;
-
-        // Si l'ennemi est trop loin, on arrête de le faire bouger
-        if (distance > destroyDistance)
-        {
-            // On réinitialise la position de l'ennemi si nécessaire (évite qu'il "vole")
-            transform.position = startPosition;
-            return;
-        }
-
-        // Si l'ennemi est à portée, il suit le joueur
-        if (distance <= reactDistance)
-        {
-            enemyRb.AddForce(lookDirection * movementSpeed, ForceMode.Force);  // Suivre activement le joueur
-        }
-
-        // Limite le mouvement sur l'axe Y pour éviter que l'ennemi vole
-        transform.position = new Vector3(transform.position.x, 0f, transform.position.z); // Force l'ennemi à rester sur l'axe du sol
-
-        // Si l'ennemi dépasse une certaine distance du joueur sur l'axe Z, il retourne à sa position initiale
-        if (transform.position.z - player.transform.position.z < -3f)
-        {
-            transform.position = startPosition;  // Réinitialisation de la position
-        }
+    private IEnumerator ResumePhysicsAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        enemyRb.isKinematic = false;  // Réactiver la physique pour l'ennemi
     }
 }
