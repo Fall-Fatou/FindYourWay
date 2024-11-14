@@ -685,9 +685,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7657856006586247071}
   - component: {fileID: -6686622749377742044}
+  - component: {fileID: -8819935050372644938}
   m_Layer: 8
   m_Name: Crystal
-  m_TagString: Untagged
+  m_TagString: Cristal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -702,7 +703,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.11134, y: 5, z: -5.5321}
-  m_LocalScale: {x: 0.4698, y: 0.5571756, z: 0.39525002}
+  m_LocalScale: {x: 0.5, y: 0.4, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4360011882355196260}
@@ -729,4 +730,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   floatStrength: 0.5
   floatSpeed: 2
+  startHeight: 1.5
   rotationSpeed: 50
+--- !u!65 &-8819935050372644938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8712640558746320678}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 3}
+  m_Center: {x: 0.5, y: 2, z: 1.2}

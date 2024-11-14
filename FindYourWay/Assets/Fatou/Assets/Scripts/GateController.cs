@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GateController : MonoBehaviour
 {
-    public float mouvementSpeed = 30f;
-    public float deceleration = 5f;
+    public float mouvementSpeed;
+    public float deceleration;
 
     private float vitesseActuelle;
 
@@ -24,9 +24,9 @@ public class GateController : MonoBehaviour
 
         //vitesseActuelle -= deceleration * Time.deltaTime;
 
-        if (vitesseActuelle <= 10)
+        /*if (vitesseActuelle <= 10)
         {
             vitesseActuelle = 5;
-        }
+        }*/
     }
 }

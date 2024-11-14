@@ -34,10 +34,11 @@ public class CristalSpawner : MonoBehaviour
 
             // Crée un seul ennemi aléatoire à une position devant le joueur
             GameObject cristal = cristals[Random.Range(0, cristals.Count)];
-            float randomX = Random.Range(-4f, 4f);  // Position aléatoire sur l'axe X
-
+            float[] possibleXValues = { 0f, -3f, 3f };
+            // Choisir une valeur aléatoire dans le tableau
+            float randomX = possibleXValues[Random.Range(0, possibleXValues.Length)];
             // Instancie un seul ennemi avec des positions calculées devant le joueur
-            Instantiate(cristal, new Vector3(randomX, 0.25f, lastSpawnZ + Random.Range(5f, 10f)), cristal.transform.rotation);
+            Instantiate(cristal, new Vector3(randomX, 0.05f, lastSpawnZ + Random.Range(5f, 10f)), cristal.transform.rotation);
 
             // Affiche un log pour vérifier la position du spawn
             Debug.Log("Spawn à la position Z : " + (lastSpawnZ + Random.Range(5f, 10f)));

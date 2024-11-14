@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SpawnTrigger
+  - Cristal
+  - Ennemy
+  - Door
+  - BigDoor
+  - Canvas
+  - EventSystem
   layers:
   - Default
   - TransparentFX
