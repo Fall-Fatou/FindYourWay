@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum SIDE { Left, Mid, Right }
 
@@ -202,8 +203,8 @@ textComponent.alignment = TMPro.TextAlignmentOptions.Center;
                 Debug.Log("Door deleted!");
             }
             Debug.Log("GOOD MORNING");
-            //SceneManager.LoadScene("");
-            QuitGame();
+            SceneManager.LoadScene("End");
+            //QuitGame();
         }
     }
 }

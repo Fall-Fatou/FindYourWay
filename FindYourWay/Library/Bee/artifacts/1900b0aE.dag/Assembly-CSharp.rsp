@@ -358,6 +358,7 @@
 "Assets/Fatou/Assets/Scripts/CristalSpawner.cs"
 "Assets/Fatou/Assets/Scripts/EnemyAI.cs"
 "Assets/Fatou/Assets/Scripts/EnemySpawner.cs"
+"Assets/Fatou/Assets/Scripts/GameManager.cs"
 "Assets/Fatou/Assets/Scripts/GateController.cs"
 "Assets/Fatou/Assets/Scripts/PlotSpawner.cs"
 "Assets/Fatou/Assets/Scripts/RoadSpawner.cs"

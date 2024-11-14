@@ -7,7 +7,7 @@ public class SpawnManager : MonoBehaviour
     PlotSpawner plotSpawner;
 
     // Variables pour le délai de spawn
-    public float maxRoadSpawnDelay = 12f; // Délai max pour une vitesse lente
+    public float maxRoadSpawnDelay = 50f; // Délai max pour une vitesse lente
     public float minRoadSpawnDelay = 0.2f; // Délai min pour une vitesse rapide
 
     private bool canSpawnRoad = true;   // Contrôle si une route peut être spawnée
