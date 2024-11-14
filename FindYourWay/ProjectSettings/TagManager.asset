@@ -11,6 +11,10 @@ TagManager:
   - BigDoor
   - Canvas
   - EventSystem
+  - PlayButton
+  - StartButton
+  - ReplayButton
+  - MenuButton
   layers:
   - Default
   - TransparentFX

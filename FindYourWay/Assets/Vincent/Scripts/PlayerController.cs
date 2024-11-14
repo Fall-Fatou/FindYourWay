@@ -178,7 +178,8 @@ textComponent.alignment = TMPro.TextAlignmentOptions.Center;
                 obj.SetActive(false);
             }
             Die();
-            ShowMessage("TU ES MORT!");
+            SceneManager.LoadScene("EndGame");
+            //ShowMessage("TU ES MORT!");
         }
 
         if (other.CompareTag("Cristal"))
