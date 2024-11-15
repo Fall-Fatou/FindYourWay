@@ -6,8 +6,6 @@ public class GameManager : MonoBehaviour
 {
     private GameObject player;
     public Text uiDistance;
-    public Text uiCrystals;
-    private int playerCrystals = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,10 +17,5 @@ public class GameManager : MonoBehaviour
     {
         int distance = Mathf.RoundToInt(player.transform.position.z);
         uiDistance.text = distance.ToString() + "m";
-        uiCrystals.text = playerCrystals.ToString();
-    }
-    public void CrystalsCollected()
-    {
-        playerCrystals ++; 
     }
 }

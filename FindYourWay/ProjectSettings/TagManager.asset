@@ -15,6 +15,11 @@ TagManager:
   - StartButton
   - ReplayButton
   - MenuButton
+  - ResumeButton
+  - QuitButton
+  - PauseButton
+  - pauseMenu
+  - SkipButton
   layers:
   - Default
   - TransparentFX

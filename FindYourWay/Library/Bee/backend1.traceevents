@@ -1,387 +1,327 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1731618559056521, "dur":75, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1731618559056718, "dur":2261, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1731618559058991, "dur":228, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1731618559059294, "dur":375, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1731618559059995, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level2.resS" }}
-,{ "pid":12345, "tid":0, "ts":1731618559060104, "dur":112, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level4" }}
-,{ "pid":12345, "tid":0, "ts":1731618559060227, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level4.resS" }}
-,{ "pid":12345, "tid":0, "ts":1731618559060304, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level5" }}
-,{ "pid":12345, "tid":0, "ts":1731618559060387, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level5.resS" }}
-,{ "pid":12345, "tid":0, "ts":1731618559060445, "dur":175, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/resources.assets" }}
-,{ "pid":12345, "tid":0, "ts":1731618559060846, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":0, "ts":1731618559060952, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":0, "ts":1731618559061134, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":0, "ts":1731618559061222, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1731618559061295, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":0, "ts":1731618559061415, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":0, "ts":1731618559061485, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets5.resource" }}
-,{ "pid":12345, "tid":0, "ts":1731618559061581, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1731618559061719, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":0, "ts":1731618559062371, "dur":183, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1731618559062558, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1731618559062706, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1731618559064699, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":0, "ts":1731618559064937, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":0, "ts":1731618559064991, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":0, "ts":1731618559065058, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":0, "ts":1731618559065124, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":0, "ts":1731618559059710, "dur":6396, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1731618559066108, "dur":313142, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1731618559379252, "dur":275, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1731618559379695, "dur":2193, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1731618559060321, "dur":5796, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1731618559066119, "dur":6292, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1731618559072478, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1731618559072542, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1731618559072657, "dur":1682, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1731618559074342, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1731618559074861, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559075050, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\LeanLocalization.TMP.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559075149, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559075337, "dur":243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559075581, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\LeanLocalization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559075656, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\LeanLocalizationEditor.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559075715, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\LeanCommon.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559075782, "dur":310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559076093, "dur":724, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559076820, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559076952, "dur":504, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559077459, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\CW.Common.dll" }}
-,{ "pid":12345, "tid":1, "ts":1731618559072540, "dur":5322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1731618559078299, "dur":94, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1731618559079027, "dur":288598, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1731618559372785, "dur":5115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1731618559372783, "dur":5120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1731618559377939, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1731618559060467, "dur":6130, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559066600, "dur":811, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559067412, "dur":5013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559072455, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559073529, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/app.info" }}
-,{ "pid":12345, "tid":2, "ts":1731618559076899, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1731618559078731, "dur":3335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1731618559082144, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1731618559082309, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1731618559083972, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1731618559084027, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559084746, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1731618559086081, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1731618559087680, "dur":3600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1731618559093010, "dur":4330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559097518, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559099097, "dur":8847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559108010, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559108340, "dur":5039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559113502, "dur":3751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559117364, "dur":3856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559121268, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559121768, "dur":5331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/LeanCommon.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559127218, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559130278, "dur":4799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559135232, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559135364, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559137013, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559137089, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559138977, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559139204, "dur":4597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559143915, "dur":2829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559146903, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559149754, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559151669, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559149842, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559151822, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559151935, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559156173, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559156363, "dur":3282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559159702, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559159976, "dur":14859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559174892, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559175019, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559178428, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1731618559178595, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1731618559180809, "dur":10020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":2, "ts":1731618559190914, "dur":19889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1731618559210976, "dur":16342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1731618559227390, "dur":5093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1731618559232670, "dur":7195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level4" }}
-,{ "pid":12345, "tid":2, "ts":1731618559239920, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level1" }}
-,{ "pid":12345, "tid":2, "ts":1731618559241120, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1731618559242666, "dur":136570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559060322, "dur":5801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559066127, "dur":1298, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559067426, "dur":5393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559072820, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1731618559072873, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559105432, "dur":3831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1731618559109324, "dur":971, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559110334, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1731618559113721, "dur":5930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1731618559119852, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559120601, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1731618559123078, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559123251, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/LeanLocalization.TMP.dll" }}
-,{ "pid":12345, "tid":3, "ts":1731618559124577, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559124656, "dur":157, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559124817, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1731618559127837, "dur":8759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1731618559136646, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559136789, "dur":12015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1731618559163440, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559148918, "dur":14619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1731618559163599, "dur":10595, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559174254, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1731618559176397, "dur":559, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1731618559176979, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1731618559179788, "dur":63605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets5.resource" }}
-,{ "pid":12345, "tid":3, "ts":1731618559243436, "dur":135792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559060386, "dur":5754, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559066142, "dur":690, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559066833, "dur":1189, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559068022, "dur":4591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559074441, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1731618559080488, "dur":81, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559079092, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1731618559081663, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1731618559083755, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1731618559086836, "dur":201, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559083873, "dur":3180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1731618559087111, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1731618559087238, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1731618559089759, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559091350, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1731618559092329, "dur":14729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1731618559107183, "dur":4769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559112034, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559112291, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559116092, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559116218, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559118422, "dur":94, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559118520, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/CW.Common.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559120324, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559120397, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559122364, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559125003, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559125232, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559125292, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559128686, "dur":655, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559129390, "dur":10298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559139739, "dur":570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559140346, "dur":2950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559143400, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559146781, "dur":107, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559146894, "dur":2818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559149772, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559149846, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559151917, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559152016, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559154678, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559154817, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559156633, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559156964, "dur":3261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559160352, "dur":115, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559163372, "dur":134, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559160472, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559163594, "dur":10594, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559177856, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559174234, "dur":3716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559178029, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559180554, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559178223, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1731618559180715, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":4, "ts":1731618559209950, "dur":228, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559182045, "dur":28161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1731618559210436, "dur":15599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1731618559226241, "dur":10810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1731618559237140, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level3" }}
-,{ "pid":12345, "tid":4, "ts":1731618559243721, "dur":109, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1731618559240414, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1731618559243967, "dur":135226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559060416, "dur":5730, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559066148, "dur":692, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559066841, "dur":905, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559067747, "dur":4759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559072642, "dur":298, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1731618559072510, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1731618559072942, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559120021, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1731618559124612, "dur":243, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559121956, "dur":3099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/LeanLocalization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1731618559125105, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559125241, "dur":12941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1731618559138309, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1731618559141113, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559141226, "dur":2701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1731618559143988, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559144295, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1731618559147686, "dur":4018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1731618559151797, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559151925, "dur":3529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1731618559155502, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559155807, "dur":2630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1731618559158486, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559158574, "dur":16240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1731618559174921, "dur":9715, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559184659, "dur":215, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559186760, "dur":117, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559184882, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1731618559186997, "dur":128, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559192506, "dur":477, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559187134, "dur":5882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":5, "ts":1731618559202090, "dur":133, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559193129, "dur":9140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":5, "ts":1731618559202369, "dur":7179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1731618559209624, "dur":14018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":5, "ts":1731618559223764, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1731618559226206, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1731618559227509, "dur":4832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level5.resS" }}
-,{ "pid":12345, "tid":5, "ts":1731618559239557, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1731618559232427, "dur":7299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level4.resS" }}
-,{ "pid":12345, "tid":5, "ts":1731618559239827, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level1.resS" }}
-,{ "pid":12345, "tid":5, "ts":1731618559241456, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1731618559242990, "dur":136207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559060530, "dur":6249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559066781, "dur":823, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559067605, "dur":5156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559072777, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":6, "ts":1731618559072764, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1731618559089023, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1731618559090851, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559090847, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559091026, "dur":157, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559091272, "dur":19290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559110612, "dur":980, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559111630, "dur":2866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559114573, "dur":1134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559115765, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559119261, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559121407, "dur":4462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/LeanLocalizationEditor.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559125917, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559134024, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559125992, "dur":8217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559134334, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559134489, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559135795, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559135913, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559139420, "dur":779, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559143012, "dur":124, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559140245, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559143361, "dur":4592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559148015, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559148236, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559151333, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559151454, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559154334, "dur":2422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559156829, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559157023, "dur":4702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559161778, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559161872, "dur":13794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559175733, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559175866, "dur":25145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1731618559201245, "dur":23591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":6, "ts":1731618559224909, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559225023, "dur":4684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1731618559229806, "dur":7553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level5" }}
-,{ "pid":12345, "tid":6, "ts":1731618559237437, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level2.resS" }}
-,{ "pid":12345, "tid":6, "ts":1731618559241961, "dur":129, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1731618559240306, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1731618559242213, "dur":137030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559060649, "dur":6531, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559067189, "dur":797, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559067987, "dur":4444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559072460, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1731618559072446, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1731618559087650, "dur":10472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1731618559098357, "dur":13378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559111822, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559111947, "dur":5606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559117692, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559117891, "dur":7846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559125797, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559125972, "dur":6125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559132141, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559132222, "dur":5156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559137436, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559137552, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559140487, "dur":368, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559140879, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559144503, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559144736, "dur":3193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559148010, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559148109, "dur":5279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559153438, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559153598, "dur":4183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559157835, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559157934, "dur":164, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1731618559158103, "dur":80046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1731618559238227, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level2" }}
-,{ "pid":12345, "tid":7, "ts":1731618559240390, "dur":3676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level0" }}
-,{ "pid":12345, "tid":7, "ts":1731618559244111, "dur":135221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559060674, "dur":6709, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559067383, "dur":367, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559067750, "dur":4766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559074365, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1731618559076860, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1731618559076857, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1731618559077718, "dur":5046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1731618559082846, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1731618559082843, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1731618559082942, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559083017, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1731618559086647, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1731618559086803, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559086915, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1731618559088200, "dur":1229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559089444, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559090991, "dur":134, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559089791, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1731618559091314, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":8, "ts":1731618559091313, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay.exe" }}
-,{ "pid":12345, "tid":8, "ts":1731618559091428, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay.exe" }}
-,{ "pid":12345, "tid":8, "ts":1731618559096202, "dur":478, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559092993, "dur":3712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559096789, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559096930, "dur":10016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559109370, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559107097, "dur":2429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559109838, "dur":964, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559110839, "dur":3433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559114354, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559114568, "dur":113, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559114686, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559119491, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559118086, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559119709, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559120061, "dur":127, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559122077, "dur":155, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559120194, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559122356, "dur":128, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559123870, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559122488, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559124046, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559126848, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559129864, "dur":143, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559126935, "dur":3106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559130156, "dur":5181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559135577, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559137803, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559138002, "dur":2763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559140845, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559141008, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559144142, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559147237, "dur":113, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559144277, "dur":3088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559147482, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559147716, "dur":591, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559157875, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559148323, "dur":9646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559158133, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559161973, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559162108, "dur":16377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559178535, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559178532, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559269684, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1731618559178844, "dur":90996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1731618559269900, "dur":109380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1731618559385889, "dur":2136, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1731669704212787, "dur":2092, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731669704214890, "dur":189, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731669704215154, "dur":257, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731669704215875, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1731669704216080, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1731669704216165, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1731669704216275, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1731669704215436, "dur":4846, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731669704220285, "dur":296217, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731669704516504, "dur":123, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731669704516627, "dur":84, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731669704516711, "dur":70, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731669704516951, "dur":2409, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1731669704215667, "dur":4625, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1731669704220295, "dur":5528, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1731669704225896, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1731669704225999, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1731669704226386, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704226569, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\LeanLocalization.TMP.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704226648, "dur":184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704226833, "dur":408, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704227243, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\LeanLocalization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704227373, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\LeanLocalizationEditor.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704227452, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\LeanCommon.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704227556, "dur":472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704228030, "dur":708, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704228741, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704228878, "dur":484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704229364, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\fallf\\Unity\\apping2Project\\FindYourWay\\FindYourWay\\Library\\Bee\\PlayerScriptAssemblies\\CW.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1731669704225894, "dur":3849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1731669704230186, "dur":109, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1731669704230791, "dur":277453, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1731669704514134, "dur":1095, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1731669704514133, "dur":1099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1731669704515262, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1731669704215707, "dur":4601, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704220559, "dur":879, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":2, "ts":1731669704220311, "dur":1424, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704221736, "dur":4092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704225843, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704227751, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1731669704230378, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1731669704230375, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1731669704230542, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1731669704231876, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1731669704232716, "dur":4516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1731669704237314, "dur":636, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704238190, "dur":5620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1731669704243914, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704247602, "dur":6601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704254298, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704257014, "dur":2087, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704259131, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704263467, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704263585, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704265745, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704266008, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704267856, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704268050, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704270366, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704270503, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704272055, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704276654, "dur":306, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704272237, "dur":4758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704277101, "dur":3250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704280448, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704282992, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704283386, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704283536, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704286864, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704290508, "dur":310, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704286939, "dur":3907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704290993, "dur":5546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704296649, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704301629, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731669704301774, "dur":2294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704304147, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704304252, "dur":37140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1731669704341491, "dur":19721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1731669704361306, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level4.resS" }}
+,{ "pid":12345, "tid":2, "ts":1731669704362507, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1731669704363867, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1731669704367150, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1731669704368991, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1731669704371196, "dur":145310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704215748, "dur":4833, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704220583, "dur":593, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704221177, "dur":244, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704221421, "dur":4560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704228785, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1731669704231691, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1731669704234529, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1731669704237121, "dur":8258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay.exe" }}
+,{ "pid":12345, "tid":3, "ts":1731669704245520, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704246032, "dur":10288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704256407, "dur":8682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704265159, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704276524, "dur":354, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704265508, "dur":11384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/LeanLocalizationEditor.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704276966, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704277295, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704280422, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704282850, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704282975, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704286237, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704289917, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704290172, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704291714, "dur":3052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704294825, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704295153, "dur":4368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704299564, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704299732, "dur":7026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1731669704306829, "dur":5795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1731669704312733, "dur":34624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1731669704347412, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731669704347490, "dur":16224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1731669704363780, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1731669704365718, "dur":3760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1731669704369562, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1731669704372270, "dur":144192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704215697, "dur":4604, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704220303, "dur":588, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704220892, "dur":1047, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704221939, "dur":4227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704226176, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1731669704226168, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1731669704226237, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704228467, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1731669704230553, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1731669704232091, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1731669704232143, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704234004, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1731669704235061, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704235852, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1731669704237071, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704237469, "dur":12418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704249963, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704250378, "dur":4191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704254619, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704254721, "dur":6983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704261831, "dur":4036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/CW.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704265957, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/LeanLocalization.TMP.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704267733, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704270986, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704271065, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704272584, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704272788, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704275537, "dur":563, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704276124, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704277751, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704280480, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704283650, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704283802, "dur":4834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704288754, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704288881, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704292917, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704293232, "dur":4868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704298152, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704298247, "dur":4473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704302779, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731669704303113, "dur":5466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1731669704308810, "dur":79074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1731669704387925, "dur":128481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704215725, "dur":4602, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704220329, "dur":614, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704220943, "dur":548, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704221491, "dur":4339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704225834, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1731669704226359, "dur":6904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1731669704233303, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1731669704233541, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1731669704234647, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1731669704238038, "dur":11843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704249962, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704250381, "dur":5586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704256017, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704256129, "dur":5290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704261479, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704261628, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704263268, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704263345, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704265272, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704265433, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704267160, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704267424, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704269047, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704269427, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704271553, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704276730, "dur":241, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704271715, "dur":5285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704277118, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704280891, "dur":4420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704285448, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704285590, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704288720, "dur":6197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704294970, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704295162, "dur":3726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704298932, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704299021, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704301999, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731669704302077, "dur":11603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1731669704313779, "dur":67287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1731669704381100, "dur":135414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704215785, "dur":4809, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704220969, "dur":610, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704220596, "dur":1241, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704221837, "dur":4334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704226172, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1731669704229019, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1731669704231952, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1731669704232006, "dur":416, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704232676, "dur":12158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1731669704244937, "dur":243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704245262, "dur":11511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704256814, "dur":2182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704259042, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704265231, "dur":1355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704266610, "dur":4576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/LeanLocalization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704271282, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704273315, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704273450, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704275028, "dur":1067, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704276132, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704277952, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704278068, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704281173, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704281337, "dur":4186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704285571, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704285671, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704288362, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704288465, "dur":4072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704292600, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704292872, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704296894, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731669704297144, "dur":3889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704301125, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704303549, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1731669704305082, "dur":9881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":6, "ts":1731669704315453, "dur":33897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1731669704349465, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1731669704351142, "dur":18118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1731669704369318, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1731669704372507, "dur":143947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704215818, "dur":5176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704220996, "dur":560, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704221556, "dur":4342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704225899, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1731669704229136, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1731669704232143, "dur":9739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1731669704242000, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704245645, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704246027, "dur":5415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704264169, "dur":103, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704251559, "dur":12727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704264367, "dur":522, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704264966, "dur":4965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704269975, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704270058, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704272000, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704272239, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704274793, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704276930, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704277280, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704280446, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704283362, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704283538, "dur":4204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704287789, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704287869, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704290853, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704290996, "dur":4090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704295128, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704295230, "dur":3958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704299229, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704299758, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731669704300129, "dur":6757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1731669704306947, "dur":38307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1731669704345324, "dur":5386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1731669704350845, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1731669704353170, "dur":6522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1731669704359762, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1731669704362392, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1731669704364208, "dur":4725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1731669704368999, "dur":7614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1731669704376668, "dur":139729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704215851, "dur":5646, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704221498, "dur":4434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704225937, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1731669704230788, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704228747, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1731669704231676, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1731669704234124, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1731669704234534, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1731669704236650, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704238754, "dur":6733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704245540, "dur":437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704246037, "dur":5071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704251210, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704254785, "dur":6071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704260953, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704263035, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704264679, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/LeanCommon.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704266352, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704266443, "dur":4603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704271167, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704276338, "dur":446, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704271594, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704276904, "dur":1081, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704278062, "dur":5050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704283158, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704283245, "dur":4399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704287698, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704287866, "dur":6575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704294507, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704294609, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704297710, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704297813, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704301270, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731669704301420, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704303753, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1731669704305348, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1731669704307226, "dur":15854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1731669704323189, "dur":35949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1731669704359207, "dur":21884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/fallf/Unity/apping2Project/FindYourWay_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1731669704381122, "dur":135277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731669704523175, "dur":2343, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

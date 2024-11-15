@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Hiba/Scenes/End.unity
     guid: 0a52247664f26694c95dc815d6bd760d
   - enabled: 0
+    path: Assets/Fatou/Assets/Scenes/PauseScene.unity
+    guid: 3fdc36f7f600a7949876438e8c56c7d5
+  - enabled: 0
     path: Assets/Fatou/Assets/Scenes/End.unity
     guid: c44fa0a7ffdd7384cbca5161ed465e52
   - enabled: 0

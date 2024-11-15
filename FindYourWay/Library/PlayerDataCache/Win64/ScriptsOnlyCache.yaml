@@ -10,7 +10,6 @@ ScriptsOnlyBuild:
     - GameManager
     - GateController
     - Menu2Controller
-    - MusicManager
     - PlayerController
     - PlotSpawner
     - RoadSpawner
@@ -31,12 +30,17 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -223,6 +227,21 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: OnButtonClick
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonManager
+    methodName: OnButtonClick
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonManager
+    methodName: OnButtonClick
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonManager
+    methodName: OnButtonClick
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonManager
+    methodName: OnButtonClick
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonManager
+    methodName: OnButtonClick
   sceneClasses:
     Assets/Fatou/Assets/Scenes/EndGame.unity:
     - Class: 1
@@ -331,6 +350,12 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16718}
     - Class: 114
+      Script: {instanceID: 16722}
+    - Class: 114
+      Script: {instanceID: 16764}
+    - Class: 114
+      Script: {instanceID: 16788}
+    - Class: 114
       Script: {instanceID: 16840}
     - Class: 114
       Script: {instanceID: 16854}
@@ -353,6 +378,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20532}
     - Class: 114
+      Script: {instanceID: 21210}
+    - Class: 114
       Script: {instanceID: 21324}
     - Class: 114
       Script: {instanceID: 21560}
@@ -371,6 +398,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -454,6 +483,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 89
@@ -491,6 +524,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 89
@@ -500,16 +537,38 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 16718}
+    - Class: 114
+      Script: {instanceID: 16722}
+    - Class: 114
+      Script: {instanceID: 16764}
+    - Class: 114
+      Script: {instanceID: 16788}
+    - Class: 114
       Script: {instanceID: 17794}
     - Class: 114
+      Script: {instanceID: 18004}
+    - Class: 114
       Script: {instanceID: 18108}
+    - Class: 114
+      Script: {instanceID: 20532}
     - Class: 114
       Script: {instanceID: 21324}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 328
       Script: {instanceID: 0}
@@ -585,8 +644,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21454}
     - Class: 114
-      Script: {instanceID: 22200}
-    - Class: 114
       Script: {instanceID: 22444}
     - Class: 114
       Script: {instanceID: 22834}
@@ -645,7 +702,7 @@ ScriptsOnlyBuild:
     className: CwCameraLook
   - hash:
       serializedVersion: 2
-      Hash: 6b3a14c7fa9fd975e87eb17cdfd39fdf
+      Hash: 0d0b43a1bdd8ecfce1cb2dca46508de3
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ButtonManager
@@ -1293,7 +1350,7 @@ ScriptsOnlyBuild:
     className: TMP_ExampleScript_01
   - hash:
       serializedVersion: 2
-      Hash: 4ec11b33b715f65ea05d431128c62c23
+      Hash: bb20ed937040ba6e8cd02e38eb11d8bd
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
